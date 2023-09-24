@@ -13,6 +13,14 @@ const Favorites = () => {
         setNotFind('no data find')
     }
 
+    const handleSelectRemove = id => {
+        const favoriteItem = JSON.parse(localStorage.getItem('favorite'))
+        const remaining = favoriteItem.filter(idx => idx.id !== id)
+        localStorage.setItem('favorite', JSON.stringify(remaining));
+        setFavorites(remaining)
+
+    }
+
     useEffect(() => {
         const favoriteItem = JSON.parse(localStorage.getItem('favorite'))
         if (favoriteItem) {
@@ -60,6 +68,7 @@ const Favorites = () => {
                                                     <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
                                                         {favorite.description}
                                                     </p>
+                                                    <button onClick={() => handleSelectRemove(favorite.id)} className="bg-[#7E90FE] text-xl py-2 px-4 font-medium rounded-lg text-white">remove</button>
                                                 </div>
                                             </div>
                                         </div>
@@ -88,6 +97,7 @@ const Favorites = () => {
                                                     <p className="mb-8 block font-sans text-base font-normal leading-relaxed text-gray-700 antialiased">
                                                         {favorite.description}
                                                     </p>
+                                                    <button onClick={() => handleSelectRemove(favorite.id)}>remove</button>
                                                 </div>
                                             </div>
                                         </div>
