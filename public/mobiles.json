@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/L9J0nwP/samsung-galaxy-s21.png",
+    "phone_name": "Galaxy S21",
+    "brand_name": "Samsung",
+    "description": "The Samsung Galaxy S21 is a flagship smartphone known for its stunning display, powerful performance, and impressive camera capabilities. It offers a smooth user experience and is perfect for both work and play.",
+    "price": 499.99,
+    "rating": 4.5
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/P1dWVrw/iphone-14-pro.png",
+    "phone_name": "iPhone 13",
+    "brand_name": "Apple",
+    "description": "The iPhone 13 is the latest offering from Apple, featuring a sleek design, top-notch camera system, and excellent performance. It's the ideal choice for Apple enthusiasts.",
+    "price": 599.99,
+    "rating": 4.2
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/y5pw9NC/Google.png",
+    "phone_name": "Pixel 6",
+    "brand_name": "Google",
+    "description": "The Google Pixel 6 is renowned for its exceptional camera quality, stock Android experience, and regular software updates. It's a favorite among photography enthusiasts.",
+    "price": 699.99,
+    "rating": 4.7
+  },
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/ZVP2mnQ/Sony-Xperia-1-III-featured-image-packshot-review-Recovered-Recovered.png",
+    "phone_name": "Xperia 1 III",
+    "brand_name": "Sony",
+    "description": "The Sony Xperia 1 III offers a 4K HDR OLED display, excellent audio quality, and a premium build. It's a great choice for multimedia lovers.",
+    "price": 449.99,
+    "rating": 4.0
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/vc8jt1P/xiamomi.png",
+    "phone_name": "Mi 11",
+    "brand_name": "Xiaomi",
+    "description": "The Xiaomi Mi 11 boasts top-tier specifications, a stunning AMOLED display, and a competitive price point. It's a flagship device with great value.",
+    "price": 799.99,
+    "rating": 4.8
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/qs99Dtx/oneplus-9.png",
+    "phone_name": "OnePlus 9",
+    "brand_name": "OnePlus",
+    "description": "The OnePlus 9 is known for its fast and fluid OxygenOS, high refresh rate display, and strong performance. It's a flagship killer.",
+    "price": 899.99,
+    "rating": 4.6
+  },
+  {
+    "id": 7,
+    "image": "https://i.ibb.co/0F8T5XZ/Mate.png",
+    "phone_name": "Mate 40 Pro",
+    "brand_name": "Huawei",
+    "description": "The Huawei Mate 40 Pro features a powerful camera system, long battery life, and a gorgeous curved OLED display. It's a premium flagship.",
+    "price": 649.99,
+    "rating": 4.3
+  },
+  {
+    "id": 8,
+    "image": "https://i.ibb.co/CnMGzvZ/micro.png",
+    "phone_name": "Lumia 950",
+    "brand_name": "Microsoft",
+    "description": "The Microsoft Lumia 950 runs Windows 10 Mobile and offers a unique user experience. It's ideal for users who appreciate the Windows ecosystem.",
+    "price": 749.99,
+    "rating": 4.4
+  },
+  {
+    "id": 9,
+    "image": "https://i.ibb.co/RyMZv2J/Reno-6-Pro.png",
+    "phone_name": "Reno 6 Pro",
+    "brand_name": "OPPO",
+    "description": "The OPPO Reno 6 Pro is known for its sleek design, powerful camera features, and fast charging capabilities. It's a flagship with style.",
+    "price": 999.99,
+    "rating": 4.9
+  },
+  {
+    "id": 10,
+    "image": "https://i.ibb.co/60Wk8Vf/Redmi-Note-10.png",
+    "phone_name": "Redmi Note 10",
+    "brand_name": "Redmi",
+    "description": "The Redmi Note 10 offers a great balance of performance and affordability. It's a budget-friendly option with impressive features.",
+    "price": 399.99,
+    "rating": 4.1
+  }
+]
